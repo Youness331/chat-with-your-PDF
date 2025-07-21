@@ -24,7 +24,7 @@ st.set_page_config(
 # Configure Gemini API
 @st.cache_resource
 def configure_gemini():
-    api_key = os.getenv("GEMINI_API_KEY") or "AIzaSyCIooxFHkdrP1gpG8O3rQLBnKkr2ZZ6Ls8"
+    api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         st.error("⚠️ API key not found")
         st.stop()
