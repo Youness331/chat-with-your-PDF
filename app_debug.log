@@ -1,0 +1,58 @@
+2025-07-21 17:19:21,668 - DEBUG - Processing PDF, size: 5770 bytes
+2025-07-21 17:19:22,027 - DEBUG - Loaded 3 documents from PDF
+2025-07-21 17:19:22,028 - DEBUG - Created 9 chunks
+2025-07-21 17:19:22,033 - DEBUG - Creating vector store with 9 chunks
+2025-07-21 17:19:22,034 - DEBUG - Initializing embedding model
+2025-07-21 17:19:42,473 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-21 17:19:42,481 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-21 17:19:42,926 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 17:19:42,962 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-07-21 17:19:43,133 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 17:19:43,162 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 17:19:43,324 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 17:19:43,365 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2025-07-21 17:19:43,566 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 17:19:43,597 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-07-21 17:19:43,762 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 17:19:43,790 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 17:19:43,950 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 17:19:44,094 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 17:19:44,131 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2025-07-21 17:19:47,476 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 17:19:47,512 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 17:19:47,684 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 17:19:47,983 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6849
+2025-07-21 17:19:48,139 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6849
+2025-07-21 17:19:49,038 - DEBUG - Registering provider: token_config
+2025-07-21 17:19:49,048 - DEBUG - Registering provider: user_token_config
+2025-07-21 17:19:49,057 - DEBUG - Registering provider: token
+2025-07-21 17:19:49,063 - DEBUG - Registering provider: token
+2025-07-21 17:19:49,139 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-07-21 17:19:49,151 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-21 17:19:49,483 - DEBUG - Starting component System
+2025-07-21 17:19:49,484 - DEBUG - Starting component Posthog
+2025-07-21 17:19:49,485 - DEBUG - Starting component OpenTelemetryClient
+2025-07-21 17:19:49,485 - DEBUG - Starting component SimpleAssignmentPolicy
+2025-07-21 17:19:49,486 - DEBUG - Starting component SqliteDB
+2025-07-21 17:19:49,526 - DEBUG - Starting component QuotaEnforcer
+2025-07-21 17:19:49,526 - DEBUG - Starting component LocalSegmentManager
+2025-07-21 17:19:49,530 - DEBUG - Starting component SegmentAPI
+2025-07-21 17:19:50,052 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-21 17:19:50,449 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-21 17:19:51,135 - DEBUG - Starting component LocalHnswSegment
+2025-07-21 17:19:51,164 - DEBUG - Vector store created successfully
+2025-07-21 17:21:30,266 - DEBUG - API Key length: 39
+2025-07-21 17:21:30,278 - DEBUG - Gemini API configured successfully
+2025-07-21 17:21:30,282 - DEBUG - Processing query: what is the code of conduct?...
+2025-07-21 17:21:30,498 - DEBUG - Retrieved 3 documents
+2025-07-21 17:21:30,928 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-21 17:21:41,345 - DEBUG - Gemini API response received
+2025-07-21 17:21:41,678 - DEBUG - Processing query: what is the code of conduct?...
+2025-07-21 17:21:41,715 - DEBUG - Retrieved 3 documents
+2025-07-21 17:22:58,372 - DEBUG - Gemini API response received
+2025-07-21 17:22:58,700 - DEBUG - Processing query: what is the code of conduct?...
+2025-07-21 17:22:58,768 - DEBUG - Retrieved 3 documents
+2025-07-21 17:23:34,777 - DEBUG - Gemini API response received
+2025-07-21 17:23:35,339 - DEBUG - Processing query: what is the code of conduct?...
+2025-07-21 17:23:35,740 - DEBUG - Retrieved 3 documents
+2025-07-21 17:24:37,594 - DEBUG - Gemini API response received
