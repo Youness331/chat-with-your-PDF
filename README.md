@@ -15,7 +15,7 @@ A Streamlit application that allows you to chat with your PDF documents using Go
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Youness331/chat-with-your-PDF.git
 cd QA-Bot
 ```
 
