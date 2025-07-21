@@ -21,6 +21,10 @@ st.set_page_config(
 @st.cache_resource
 def configure_gemini():
     api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        st.error("⚠️ Please set your GEMINI_API_KEY in the .env file")
+        st.info("Create a .env file with: GEMINI_API_KEY=your_actual_api_key")
+        st.stop()
     genai.configure(api_key=api_key)
     return genai.GenerativeModel('gemini-1.5-flash')
 
