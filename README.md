@@ -89,12 +89,7 @@ The `.gitignore` file is configured to exclude sensitive files.
 - Verify your Gemini API key is correct and active
 - Check if you've exceeded API quotas
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## License
 
